@@ -1,0 +1,257 @@
+*{
+  padding: 0;
+  margin: 0;
+  background: whitesmoke;
+}
+.Header{
+  height: 160vh;
+  background: whitesmoke;
+  margin-top: 20%;
+}
+.border {
+  height: 120vh;
+  border: 1px solid white;
+  width: 98%;
+  margin-left: 1%;
+  background: white;
+}
+.mouth{
+  background: white;
+}
+.mouth h1 {
+  /* margin-top: 15%; */
+  color: rgba(0, 0, 0, 0.884);
+  font-size: 35px;
+  font-style: normal;
+  background: white;
+  font-weight: 545;
+  float: right;
+  position: absolute;
+  right: 20%;
+  top: 65%;
+  /* margin-right: 20%; */
+}
+.mouth span img {
+  float: left;
+  width: 40%;
+  height: 120vh;
+}
+.div-input {
+  background: white;
+}
+.div-input input  {
+  /* position: absolute;
+  top: 100%;
+  left: 25px; */
+  padding-left: 70px;
+   border-color: lightgray;
+   padding: 14px;
+   position: unset;
+    padding-left: 10%; 
+    margin-top: 18%;
+   background: white;
+   border-top-color: lightgray;
+   text-align: left;
+   margin-right: 23%;
+  
+}
+.div-input2  ::placeholder  {
+  float: left;
+   position: absolute;
+   left: 4%;
+   font-size: medium;
+   
+   }
+   .div-input ::placeholder {
+    font-size: large;
+     position: absolute;
+     left: 4%;
+     font-size: medium;
+}  
+
+.div-input2 {
+  background: white;
+}
+.div-input2 input {
+  border-color: lightgray;
+  padding: 14px;
+  padding-left: 10%;
+  /* margin-top: -60%;
+  margin-right: -20.5%; */
+  background: white;
+  position: absolute;
+top: 77%;
+  right: 6%;
+}
+.div-input :hover {
+  border-color: green;
+}
+.div-input2 :hover {
+  border-color: green;
+}
+.div-botton button {
+  border-color: transparent;
+  padding: 20px;
+  padding-left: 46%;
+  /* margin-top: 3%; */
+  background: rgb(7, 197, 86);
+  border-radius: 4px;
+  position: absolute;
+  top: 90%;
+  left: 46.5%;
+
+}
+.div-botton {
+  background: white;
+ }
+ .div-botton p {
+  color:white;
+  background: rgb(7, 197, 86);
+  position: absolute;
+  left: 45%;
+  font-size: medium;
+  top: 30%;
+}
+.div-span{
+  background: white;
+  position: absolute;
+  top: 105%;
+  left: 62%;
+  font-size: larger;
+}
+.div-span a {
+  text-decoration: none;
+}
+.div-span span {
+  color:gray;
+  background: white;
+}
+.div-span .span2 {
+  color:rgb(7, 197, 86); 
+  background: white;
+}
+.div-span h4 {
+  color: rgb(7, 197, 86);
+  margin-top: 105%;
+  background: white;
+}
+
+
+
+/* media query */
+@media (max-width:700px){
+  .Header{
+
+  height: 160vh;
+  background: whitesmoke;
+  margin-top: 10%;
+}
+}
+@media (max-width:700px) {
+  .mouth span img{
+     width: 0%;
+     height: 0%;
+  }
+}
+@media (max-width:700px){
+  .border {
+  height: 145vh;
+  border: 1px solid white;
+  width: 95%;
+  margin-left: 2.5%;
+  background: white;
+}
+}
+@media (max-width:700px){
+  .mouth h1 {
+   position: absolute;
+    color: rgba(0, 0, 0, 0.884);
+    font-size: 26px;
+    font-style: normal;
+    background: white;
+    font-weight: 545;
+    top: 40%;
+    left: 20%;
+}
+}
+@media (max-width:700px){
+  .div-input {
+  background: white;
+}
+}
+@media (max-width:700px){
+  .div-input input {
+  border-color: lightgray;
+  padding: 14px;
+  position: absolute;
+   padding-left: 53%; 
+   top: 38%;
+   left: 4%;
+  background: white;
+  border-top-color: lightgray;
+  text-align: left;
+  }
+}
+@media (max-width:700px){.div-input :hover {
+  border-color: green;
+}
+}
+@media (max-width:700px){
+  .div-input2 :hover {
+  border-color: green;
+}
+}
+@media (max-width:700px){
+  .div-input ::placeholder {
+font-size: large;
+ position: absolute;
+ left: 4%;
+}  }
+@media (max-width:700px){
+  .div-input2 {
+background: white;
+}
+}
+@media (max-width:700px){ 
+  .div-input2 input {
+      border-color: lightgray;
+      padding: 14px;
+      position: absolute;
+      padding-left: 53%; 
+      top: 68%;
+       left: 4%;
+      background: white;
+  }
+  }
+  @media (max-width:700px){.div-botton {
+    background: white;
+   }
+ }
+ @media (max-width:700px){ 
+   .div-botton button {
+  border-color: transparent;
+  padding: 25px;
+  padding-left: 86%;
+  position: absolute;
+  top: 82%;
+  left: 4%;
+  background: rgb(7, 197, 86);
+  border-radius: 4px;
+}
+}
+@media (max-width:700px){
+  .div-span{
+  background: white;
+  position: absolute;
+  top: 98%;
+  left: 30%;
+  font-size: larger;
+}
+}
+@media (max-width:700px){
+  .div-span h4 {
+  color: rgb(7, 197, 86);
+  margin-top: 95%;
+  background: white;
+}
+}
